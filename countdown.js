@@ -89,9 +89,9 @@ function resetCountdown() {
 function updatePlayPauseButton() {
   let playPauseImageSrc;
   if(isPaused) {
-    playPauseImageSrc = "playButton4x.png"
+    playPauseImageSrc = "images/playButton4x.png"
   } else {
-    playPauseImageSrc = "pauseButton4x.png"
+    playPauseImageSrc = "images/pauseButton4x.png"
   }
   document.getElementById("playPause").src = playPauseImageSrc;
 }
