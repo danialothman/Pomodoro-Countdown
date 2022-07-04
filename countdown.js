@@ -114,5 +114,5 @@ function playYoScott() {
   var yoScottAudio = document.getElementById("yoScottAudio");
   yoScottAudio.play();
 
-  document.getElementById("countdown").innerHTML = "YOO";
+  document.getElementById("countdown").innerHTML = "Done!";
 }
